@@ -1,49 +1,26 @@
 let translations = [
 
-    /*************************************** NAV MENU ************************************/
-    {
-
-        french: "Nouveau projet",
-        english: "New project",
-        spanish: "Nuevo proyecto"
-    },
-    {
-        french: "Connexion",
-        english: "Connection",
-        spanish: "Conexión"
-    },
-    {
-        french: "Inscription",
-        english: "Registration",
-        spanish: "Inscribirme"
-    },
-    {
-        french: "Mon Profil",
-        english: "My Profile",
-        spanish: "Mi Perfil"
-    },
-    {
-        french: "Mes Lettres",
-        english: "My Letters",
-        spanish: "Mis Cartas"
-    },
-    {
-        french: "Mes Paramètres",
-        english: "My Settings",
-        spanish: "Mi Configuración "
-    },
-    {
-        french: "Déconnexion",
-        english: "Disconnection",
-        spanish: "Desconectarme"
-    },
     {
         french: "Langue",
         english: "Language",
         spanish: "Lengua"
     },
+    {
+        french: "Français",
+        english: "French",
+        spanish: "Frances"
+    },
+    {
+        french: "Espagnol",
+        english: "Spanish",
+        spanish: "Español"
+    },
+    {
+        french: "Anglais",
+        english: "English",
+        spanish: "Ingles"
+    },
 
-    /*************************************** INDEX.PHP ************************************/
 
     ///////////////////////////   START STEP //////////////
     {
@@ -203,109 +180,5 @@ let translations = [
         french: "COPIER",
         english: "COPY",
         spanish: "COPIAR"
-    },
-
-    /*************************************** SIGN IN ************************************/
-    {
-        french: "Votre nom d'utilisateur",
-        english: "Your username",
-        spanish: "Su nombre de usuario"
-    },
-    {
-        french: "Votre mot de passe",
-        english: "Your password",
-        spanish: "Su contraseña"
-    },
-    {
-        french: "CONNEXION",
-        english: "CONNECT",
-        spanish: "Conexión"
-    },
-    /*************************************** SIGN UP ************************************/
-    {
-        french: "Choisissez un nom d'utilisateur",
-        english: "Choose a username",
-        spanish: "Elige un nombre de usuario"
-    },
-    {
-        french: "Choisissez un mot de passe",
-        english: "Choose a password",
-        spanish: "Elige una contraseña"
-    },
-    {
-        french: "Confirmez le mot de passe",
-        english: "Confirm the password",
-        spanish: "Confirme la contraseña"
-    },
-    {
-        french: "CONDITIONS D'UTILISATION",
-        english: "CONDITIONS OF USE",
-        spanish: "Términos de uso"
-    },
-    {
-        french: "J'ai pris connaissance des conditions d'utilisation et m'engage à les respecter.",
-        english: "I have read the conditions of use and I accept all of them.",
-        spanish: "He leído los términos y condiciones de uso y los acepto."
-    },
-    {
-        french: "CONFIRMER L'INSCRIPTION",
-        english: "REGISTER",
-        spanish: "Confirmar la inscripción"
-    },
-
-    /*************************************** PROFILE ************************************/
-
-    //////////////////// MAIN //////////
-    {
-        french: "Inscrit(e) depuis le ",
-        english: "Member since ",
-        spanish: "Registrado desde el"
-    },
-    {
-        french: "Statut : ",
-        english: "Status : ",
-        spanish: "Estatuto : "
-    },
-    {
-        french: "Mes lettres",
-        english: "My letters",
-        spanish: "Mi cartas"
-    },
-    {
-        french: "Gérer mon compte",
-        english: "Manage my account",
-        spanish: "Administrar mi cuenta"
-    },
-
-    //////////////////// PARAM SECTION //////////
-    {
-        french: "Changer mon nom d'utilisateur",
-        english: "Change my username",
-        spanish: "Cambiar mi nombre de usuario "
-    },
-    {
-        french: "Changer mon mot de passe",
-        english: "Change my password",
-        spanish: "Cambiar mi contraseña"
-    },
-    {
-        french: "Votre nouveau nom d'utilisateur",
-        english: "Your new username",
-        spanish: "Su nuevo nombre de usario"
-    },
-    {
-        french: "Votre mot de passe actuel",
-        english: "Your current password",
-        spanish: "Su contraseña actual"
-    },
-    {
-        french: "Votre nouveau mot de passe",
-        english: "Your new password",
-        spanish: "Su nueva contraseña"
-    },
-    {
-        french: "CONFIRMER",
-        english: "CONFIRM",
-        spanish: "CONFIRMIR"
     },
 ];
