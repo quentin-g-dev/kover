@@ -30,34 +30,9 @@ function translateTo(langCode) {
     }
 }
 
-function getSessionLang() {
-    var call = new XMLHttpRequest();
-    call.onreadystatechange = function () {
-        if (this.readyState == 4 && this.status == 200) {
-            console.log('lang to mermorize is :', this.responseText);
-            return this.response;
-        }
-    };
-    call.open("GET", "./ajax/session_lang.php?whichlang=1", true);
-    call.send("whichlang=1");
-}
-
-
-function setSessionLang(url, langCode) {
-    var call = new XMLHttpRequest();
-    call.onreadystatechange = function () {
-        if (this.readyState == 4 && this.status == 200) {
-            console.log('session lang set to :', this.responseText);
-        }
-    };
-    call.open('GET', url, true);
-    call.send("lang=" + langCode);
-}
 
 //////////////////////////////////////////////////////////// EXECUTION
-getSessionLang();
-var lang;
-lang = (document.getElementById("langInput").value.length > 0) ? document.querySelector('#langInput').value : getSessionLang();
+var lang = 'FR';
 translateTo(lang);
 document.querySelector(".selectLang").addEventListener("change", function () {
     lang = document.querySelector(".selectLang").value;
