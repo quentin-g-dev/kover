@@ -38,5 +38,4 @@ document.querySelector(".selectLang").addEventListener("change", function () {
     lang = document.querySelector(".selectLang").value;
     console.log(lang);
     translateTo(lang);
-    setSessionLang("./ajax/session_lang.php?lang=" + lang + "", lang);
 });
